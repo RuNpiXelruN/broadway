@@ -1,3 +1,68 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header {
+    background-color: #333;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 750px;
+    box-sizing: border-box;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.nav li {
+    color: #fff;
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+.about {
+    text-decoration: none;
+    color: #fff;
+}
+
+.jumbotron {
+    background: url("https://static.pexels.com/photos/2025/city-cars-road-traffic-large.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+.main {
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+
+.main h1 {
+    color: #fff;
+}
+
+
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
